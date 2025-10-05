@@ -42,7 +42,7 @@ const VaultItem = ({
     } catch (error) {
       toast({
         title: "Error",
-        description: "Failed to copy to clipboard",
+        description: "Failed to the copy to clipboard",
         variant: "destructive",
       });
     }
